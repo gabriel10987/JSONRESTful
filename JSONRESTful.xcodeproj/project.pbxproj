@@ -13,6 +13,11 @@
 		E2868CC82CDC143300BA6065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2868CC62CDC143300BA6065 /* Main.storyboard */; };
 		E2868CCA2CDC143500BA6065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2868CC92CDC143500BA6065 /* Assets.xcassets */; };
 		E2868CCD2CDC143500BA6065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2868CCB2CDC143500BA6065 /* LaunchScreen.storyboard */; };
+		E2868CD52CDC17BB00BA6065 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2868CD42CDC17BB00BA6065 /* Users.swift */; };
+		E2868CD72CDC1EE300BA6065 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2868CD62CDC1EE300BA6065 /* SearchViewController.swift */; };
+		E2868CD92CDC1F0B00BA6065 /* Peliculas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2868CD82CDC1F0B00BA6065 /* Peliculas.swift */; };
+		E2868CDB2CDC27BF00BA6065 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2868CDA2CDC27BF00BA6065 /* AddViewController.swift */; };
+		E28A14342CDD4A89003ECB2F /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A14332CDD4A89003ECB2F /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E2868CC92CDC143500BA6065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2868CCC2CDC143500BA6065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2868CCE2CDC143500BA6065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2868CD42CDC17BB00BA6065 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E2868CD62CDC1EE300BA6065 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E2868CD82CDC1F0B00BA6065 /* Peliculas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peliculas.swift; sourceTree = "<group>"; };
+		E2868CDA2CDC27BF00BA6065 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		E28A14332CDD4A89003ECB2F /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				E2868CC92CDC143500BA6065 /* Assets.xcassets */,
 				E2868CCB2CDC143500BA6065 /* LaunchScreen.storyboard */,
 				E2868CCE2CDC143500BA6065 /* Info.plist */,
+				E2868CD42CDC17BB00BA6065 /* Users.swift */,
+				E2868CD62CDC1EE300BA6065 /* SearchViewController.swift */,
+				E2868CD82CDC1F0B00BA6065 /* Peliculas.swift */,
+				E2868CDA2CDC27BF00BA6065 /* AddViewController.swift */,
+				E28A14332CDD4A89003ECB2F /* EditProfileViewController.swift */,
 			);
 			path = JSONRESTful;
 			sourceTree = "<group>";
@@ -138,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28A14342CDD4A89003ECB2F /* EditProfileViewController.swift in Sources */,
+				E2868CD92CDC1F0B00BA6065 /* Peliculas.swift in Sources */,
+				E2868CD72CDC1EE300BA6065 /* SearchViewController.swift in Sources */,
+				E2868CDB2CDC27BF00BA6065 /* AddViewController.swift in Sources */,
+				E2868CD52CDC17BB00BA6065 /* Users.swift in Sources */,
 				E2868CC52CDC143300BA6065 /* ViewController.swift in Sources */,
 				E2868CC12CDC143300BA6065 /* AppDelegate.swift in Sources */,
 				E2868CC32CDC143300BA6065 /* SceneDelegate.swift in Sources */,
