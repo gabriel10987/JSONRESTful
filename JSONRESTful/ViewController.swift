@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
     @IBAction func logear(_ sender: Any) {
         let ruta = "http://localhost:3000/usuarios?"
         let usuario = txtUsuario.text!
